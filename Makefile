@@ -303,3 +303,7 @@ myapi.key:
 
 
 .PHONY: handin tarball tarball-pref clean grade handin-check
+
+# GDB shortcut for debugging using gdb-multiarch
+gdb:
+	gdb-multiarch kernel/kernel
