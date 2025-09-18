@@ -1,3 +1,8 @@
+#ifndef KERNEL_DATE_H
+#define KERNEL_DATE_H
+
+#include "types.h"
+
 struct rtcdate {
   uint second;
   uint minute;
@@ -6,3 +11,5 @@ struct rtcdate {
   uint month;
   uint year;
 };
+
+#endif
